@@ -8,7 +8,7 @@ import numpy as np
 class WhiteNoiseApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("白噪音学习助手")
+        self.root.title("白噪音学习小助手")
         self.root.geometry('500x500')
         self.is_playing = False
         self.current_audio_data = None
